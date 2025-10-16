@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36414.22 d17.14
+VisualStudioVersion = 17.14.36414.22
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthApi", "AuthApi\AuthApi.csproj", "{31F7156C-023B-428D-827B-78F808A1149A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthApi.TestXunit", "AuthApi.TestXUnit\AuthApi.TestXunit.csproj", "{44ABACE6-C4DE-4C13-8A68-F377F34208E6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{31F7156C-023B-428D-827B-78F808A1149A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{31F7156C-023B-428D-827B-78F808A1149A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{31F7156C-023B-428D-827B-78F808A1149A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44ABACE6-C4DE-4C13-8A68-F377F34208E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44ABACE6-C4DE-4C13-8A68-F377F34208E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44ABACE6-C4DE-4C13-8A68-F377F34208E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44ABACE6-C4DE-4C13-8A68-F377F34208E6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
